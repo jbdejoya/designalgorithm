@@ -3213,7 +3213,7 @@ select {
     clear: both; }
   .button-group .button {
     margin: 0;
-    margin-right: 1px;
+    margin-right: 3px;
     margin-bottom: 1px;
     font-size: 0.9rem;
     -ms-flex: 0 0 auto;
@@ -4959,13 +4959,13 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     font-size: 0.75rem;
     line-height: 1;
-    color: #1779ba; }
+    color: black; }
     .tabs-title > a:hover {
       background: #fefefe;
-      color: #1468a0; }
+      color: #f4af00; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
-      background: #e6e6e6;
-      color: #1779ba; }
+      background: #f4af00;
+      color: white; }
 
 .tabs-content {
   border: 1px solid #e6e6e6;

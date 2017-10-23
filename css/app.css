@@ -109,7 +109,7 @@
 	background: linear-gradient(45deg, #f4af00 43%,#f6c54a 57%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4af00', endColorstr='#f6c54a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-	padding-top: 230px; height: 87vh; width: 100%; top: 0px; }
+	padding-top: 230px; height: 60vh; width: 100%; top: 0px; }
 
 .hero h1 { color: white; font-weight: 700; }
 .hero p { color: white; }
@@ -130,6 +130,9 @@ border-style: solid;
 border-width: 15px 15px 0 15px;
 border-color: #f4af00 transparent transparent transparent;
 }
+
+.hero-home { height: 87vh; }
+
 .content-container .testimonial-block .cell cite { color: #f4af00; font-size: 1.2rem; font-weight: bold; font-style: normal; text-transform: uppercase; }
 #home .services { background: url(../assets/images/bg.svg) no-repeat bottom -5rem center; background-size: 113%; padding-bottom: 0px;  }
 #home .services .callout { background-color: white !important; text-align: left; padding: 21px 21px 0px; height: 300px; border: 1px solid #eee; box-shadow: -15px 15px 0px 0px #19F6AA; }
@@ -164,6 +167,16 @@ border-color: #f4af00 transparent transparent transparent;
 
 #home .about { background: url(../assets/images/illustration.designer-desk.svg) no-repeat bottom -30px right -50px; background-size: 70%; text-align: left; padding-bottom: 50px; }
 #home .about .button { background: #0041F4 url(../assets/images/icon.paper-plane.svg) no-repeat center right 15px; padding-right: 3rem; }
+
+#projects .content-container section { padding: 30px; }
+#projects .content-container section h2 { margin-bottom: 0px; }
+#projects .tabs-title { font-family: 'Open Sans Condensed', sans-serif; text-transform: uppercase; }
+#projects .tabs-title a { font-size: 1rem; }
+#projects .tabs-content { border: none; }
+#projects .tabs-content .tabs-panel { text-align: left; padding-top: 0px; }
+#projects .tabs-content .tabs-panel .button-group { margin-bottom: 50px; }
+#projects .tabs-content .tabs-panel .button-group a { width: 10rem; border: 2px solid #0041F4; }
+#projects .tabs-content .tabs-panel .button-group a:first-child { background-color: rgba(255, 255, 255, 0); color: #0041F4; }
 
 footer { position: relative; background: #0041F4; padding-top: 197px; padding-bottom: 21px; margin-top: -178px; z-index: -1; }
 footer small { color: white; }
@@ -214,5 +227,17 @@ footer small { color: white; }
 @media screen and (min-width: 64em) {
 }
 
+/* xLarge Up */
+@media only screen and (min-width: 90.063em) {
+  #home .featured .pupbox .pupboxes { background-position: center right 100px;}
+  #home .featured .redweek { background-position: left 21rem center; }
+}
 
+/* xxLarge Up */
+@media only screen and (min-width: 120.063em) { 
+   #home .featured .pupbox .pupboxes { background-position: center right 300px;}
+   #home .featured .redweek { background-position: left 33rem center; }  
+   #home .featured .mission-wine-company .wines { background-size: 50%; }
+  #home .featured .mission-wine-company .wines .wines-front { background-size: 19%;  }
 
+}

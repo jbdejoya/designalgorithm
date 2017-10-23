@@ -1,6 +1,6 @@
 $(document).foundation()
 
-$('a[href*="#"]')
+$('.smooth-scroll')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
