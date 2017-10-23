@@ -229,15 +229,17 @@ footer small { color: white; }
 
 /* xLarge Up */
 @media only screen and (min-width: 90.063em) {
+  .hero-home { height: 90vh; }
   #home .featured .pupbox .pupboxes { background-position: center right 100px;}
   #home .featured .redweek { background-position: left 21rem center; }
 }
 
 /* xxLarge Up */
 @media only screen and (min-width: 120.063em) { 
+  .hero-home { height: 70vh; }
    #home .featured .pupbox .pupboxes { background-position: center right 300px;}
    #home .featured .redweek { background-position: left 33rem center; }  
    #home .featured .mission-wine-company .wines { background-size: 50%; }
-  #home .featured .mission-wine-company .wines .wines-front { background-size: 19%;  }
+   #home .featured .mission-wine-company .wines .wines-front { background-size: 19%;  }
 
 }
